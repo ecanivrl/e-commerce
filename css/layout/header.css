@@ -267,6 +267,8 @@ header .menu-dropdown-content a:hover {
     height: 100vh;
     background-color: #fff;
     border-right: 1px solid #dee0ea;
+    z-index: 2;
+    transition: all 0.7s ease;
   }
 
   .header-center .bi-x-circle {
@@ -291,9 +293,9 @@ header .menu-dropdown-content a:hover {
     display: none !important;
   }
 
-  header .menu-list i {
+  /* header .menu-list i {
     display: none;
-  }
+  } */
   header .menu-list-item a {
     font-size: 16px !important;
   }
