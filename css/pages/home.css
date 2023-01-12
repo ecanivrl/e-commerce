@@ -66,6 +66,7 @@
   flex-wrap: wrap;
   border: 1px solid #dee0ea;
   padding: 30px 5px;
+  row-gap: 50px;
 }
 
 .brand-list .brand-item{
