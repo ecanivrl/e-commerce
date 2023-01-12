@@ -78,6 +78,17 @@ button {
   color: #1367ef;
 }
 
+.btn-danger {
+  background-color:#e51414;
+  color: #fff;
+  border-color:#e51414;
+}
+
+.btn-danger:hover {
+  background-color: #fff;
+  color:#e51414;
+}
+
 input[type='text'],
 input[type='password'],
 input[type='email'],
