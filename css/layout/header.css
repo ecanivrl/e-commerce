@@ -1,7 +1,8 @@
 /*! header start  */
 .sab{
   width: 100%;
-  position: fixed;
+  position: sticky;
+  top: 0;
   z-index: 999;
   background-color: white;
   backdrop-filter: 10px;
@@ -44,6 +45,7 @@ header {
   font-size: 24px;
   cursor: pointer;
   display: none;
+  
 }
 
 .header-center .bi-x-circle {
@@ -278,7 +280,9 @@ header .menu-dropdown-content a:hover {
     background-color: #fff;
     border-right: 1px solid #dee0ea;
     z-index: 2;
-    transition: all 0.7s ease;
+  -webkit-box-shadow: 40px 10px 78px 6px rgba(51,70,214,1);
+-moz-box-shadow: 40px 10px 78px 6px rgba(51,70,214,1);
+box-shadow: 40px 10px 78px 6px rgba(51,70,214,1);
   }
 
   .header-center .bi-x-circle {
