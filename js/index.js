@@ -9,3 +9,15 @@ btnOpenSidebar.addEventListener("click", function(){
 btnCloseSidebar.addEventListener("click", function(){
     sidebar.style.left = "-100%"
 })
+
+// Click outside
+document.addEventListener("click", function(event){
+    if(
+        !event.composedPath().includes(sidebar) &&
+        !event.composedPath().includes(btnOpenSidebar)
+        ){
+        sidebar.style.left = "-100%"
+    }
+
+})
+// Click outside
