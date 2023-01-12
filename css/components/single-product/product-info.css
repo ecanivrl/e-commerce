@@ -53,6 +53,7 @@
   
   .site-main .colors .colors-wrapper {
     display: flex;
+    gap: 5px;
   }
   
   .site-main .colors .colors-label {
