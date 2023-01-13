@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <!--! header start  -->
-       <header>
+     <!--! header start  -->
+     <div class="sab">
+      <header>
         <div class="global-notification">
            <div class="container">
             <p>
@@ -24,18 +25,18 @@
             <div class="container">
                 <div class="header-wrapper">
                     <div class="header-mobile">
-                        <i class="bi bi-list"></i>
+                        <i class="bi bi-list" id="btn-menu"></i>
                     </div>
                     <div class="header-left">
                         <a href="index.html" class="logo">LOGO</a>
                     </div>
-                    <div class="header-center">
+                    <div class="header-center"id="sidebar">
                         <nav class="navigation">
                             <ul class="menu-list">
                                 <li class="menu-list-item">
                                     <a href="index.html" class="menu-link active">Home
 
-                                        <i class="bi bi-chevron-down"></i>
+                                        <i class="bi bi-chevron-down" ></i>
                                     </a>
                                     <div class="menu-dropdown-wrapper">
                                         <ul class="menu-dropdown-content">
@@ -175,14 +176,14 @@
                                 </li>
                             </ul>
                         </nav>
-                        <i class="bi-x-circle"></i>
+                        <i class="bi-x-circle" id="close-sidebar"></i>
                     </div>
                     <div class="header-right">
                         <div class="header-right-links">
                             <a href="account.html" class="header-account">
                                 <i class="bi bi-person"></i>
                               </a>
-                              <button class="toggle-button">
+                              <button class="search-button">
                                 <i class="bi bi-search"></i>
                               </button>
                               <a href="#">
@@ -200,46 +201,47 @@
             </div>
         </div>
        </header>
-       <!--! header end  -->
+    </div>
+     <!--! header end  -->
 
-       <!--! modal search start  -->
-      <div class="modal-search">
-        <div class="modal-wrapper">
-          <h3 class="modal-title">Search for products</h3>
-          <p class="modal-text">Start typing to see products you are looking for.</p>
-          <form class="search-form">
-            <input type="text" placeholder="Search a product">
-            <button>
-              <i class="bi bi-search"></i>
-            </button>
-          </form>
-          <div class="search-results">
-            <div class="search-heading">
-              <h3>RESULTS FROM PRODUCT</h3>
-            </div>
-            <div class="results">
-              <a href="#" class="result-item">
-                <img src="img/products/product1/1.png" class="search-thumb" alt="">
-                <div class="search-info">
-                  <h4>Analogue Resin Strap</h4>
-                  <span class="search-sku">SKU: PD0016</span>
-                  <span class="search-rice">$108.00</span>
-                </div>
-              </a>
-              <a href="#" class="result-item">
-                <img src="img/products/product1/1.png" class="search-thumb" alt="">
-                <div class="search-info">
-                  <h4>Analogue Resin Strap</h4>
-                  <span class="search-sku">SKU: PD0016</span>
-                  <span class="search-rice">$108.00</span>
-                </div>
-              </a>
-            </div>
+     <!--! modal search start  -->
+    <div class="modal-search">
+      <div class="modal-wrapper">
+        <h3 class="modal-title">Search for products</h3>
+        <p class="modal-text">Start typing to see products you are looking for.</p>
+        <form class="search-form">
+          <input type="text" placeholder="Search a product">
+          <button>
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div class="search-results">
+          <div class="search-heading">
+            <h3>RESULTS FROM PRODUCT</h3>
           </div>
-          <i class="bi bi-x-circle"></i>
+          <div class="results">
+            <a href="#" class="result-item">
+              <img src="img/products/product1/1.png" class="search-thumb" alt="">
+              <div class="search-info">
+                <h4>Analogue Resin Strap</h4>
+                <span class="search-sku">SKU: PD0016</span>
+                <span class="search-rice">$108.00</span>
+              </div>
+            </a>
+            <a href="#" class="result-item">
+              <img src="img/products/product1/1.png" class="search-thumb" alt="">
+              <div class="search-info">
+                <h4>Analogue Resin Strap</h4>
+                <span class="search-sku">SKU: PD0016</span>
+                <span class="search-rice">$108.00</span>
+              </div>
+            </a>
+          </div>
         </div>
+        <i class="bi bi-x-circle" id="close-search"></i>
       </div>
-    <!--! modal search end  -->
+    </div>
+  <!--! modal search end  -->
 
 
     <!--! cart start  -->
@@ -266,28 +268,7 @@
                                 <th class="product-subtotal">Subtotal</th>
                             </thead>
                             <tbody class="cart-wrapper">
-                                <tr class="cart-item">
-                                    <td></td>
-                                    <td class="cart-image">
-                                        <img src="img/products/product1/1.png" alt="">
-                                        <i class="bi bi-x delete-cart"></i>
-                                    </td>
-                                    <td>Analogue Resin Strap</td>
-                                    <td>$108.00</td>
-                                    <td class="product-quantity">1</td>
-                                    <td class="product-subtotal">$108.00</td>
-                                </tr>
-                                <tr class="cart-item">
-                                    <td></td>
-                                    <td class="cart-image">
-                                        <img src="img/products/product2/1.png" alt="">
-                                        <i class="bi bi-x delete-cart"></i>
-                                    </td>
-                                    <td>Analogue Resin Strap</td>
-                                    <td>$108.00</td>
-                                    <td class="product-quantity">1</td>
-                                    <td class="product-subtotal">$108.00</td>
-                                </tr>
+                              
                             </tbody>
                         </table>
                         <div class="actions-wrapper">
@@ -563,5 +544,7 @@
   </div>
 </footer>
 <!--! footer end  -->
+<script src="js/main.js" type="module"></script>
+<script src="js/cart.js" type="module"></script>
 </body>
 </html>
