@@ -1,6 +1,7 @@
 export function product1(){
     const config = {
-        type: "carousel",
+        // type: "carousel",
+        bound: true,
         gap:20,
         autoplay: 3000,
         perView: 4,
