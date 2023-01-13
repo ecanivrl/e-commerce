@@ -122,4 +122,11 @@
   .slider-buttons {
     display: none !important;
   }
+
+  
+.slider-item .slider-heading {
+  font-size: 40px;
+  font-weight: 400;
+}
+
 }

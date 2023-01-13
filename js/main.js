@@ -1,5 +1,6 @@
 
 import headerFunc from './header.js';
+import productsFunc from "./products.js";
 
 
 
