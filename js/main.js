@@ -18,3 +18,10 @@ getData();
 const products = localStorage.getItem("products")
 
 // !Add product to local storage end
+
+// !Add product to CART local storage Start
+ const cartItems = document.querySelector(".header-cart-count");
+
+cartItems.innerHTML = localStorage.getItem("cart") ? JSON.parse(localStorage.getItem("cart")).length : "0";
+
+// !Add product to CART local storage end

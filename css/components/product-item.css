@@ -123,6 +123,11 @@
     opacity: 0.7;
   }
   
+  .product-item .product-links button:disabled{
+    opacity: 0.4;
+    cursor: no-drop;
+  }
+
   .product-item .product-links i {
     color: #fff;
     font-size: 14px;
