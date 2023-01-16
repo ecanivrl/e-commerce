@@ -11,15 +11,14 @@
   visibility: hidden;
   z-index: 999;
   opacity: 0;
-  transition: 1s ease all; 
+  transition: 0.3s ease all;
 }
 
 .modal-search::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: black;
-  /* background-color: #FFB100; */
   position: fixed;
   top: 0;
   left: 0;
@@ -33,9 +32,9 @@
   position: fixed;
   z-index: 10;
   padding: 30px;
-  -webkit-box-shadow: 1px 3px 163px 79px rgba(46,49,245,1);
--moz-box-shadow: 1px 3px 163px 79px rgba(46,49,245,1);
-box-shadow: 1px 3px 163px 79px rgba(46,49,245,1);
+  -webkit-box-shadow: 1px 14px 80px 24px rgba(19,103,239,1);
+-moz-box-shadow: 1px 14px 80px 24px rgba(19,103,239,1);
+box-shadow: 1px 14px 80px 24px rgba(19,103,239,1);
 }
 
 .modal-search .modal-title {
@@ -57,7 +56,7 @@ box-shadow: 1px 3px 163px 79px rgba(46,49,245,1);
 }
 
 .modal-search .search-form::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 1px;
   background-color: #dee0ea;
@@ -153,7 +152,7 @@ box-shadow: 1px 3px 163px 79px rgba(46,49,245,1);
 
 /*! modal search end  */
 
-/*! search responsive  */
+/* search responsive  */
 
 @media (max-width: 992px) {
   .modal-search .modal-wrapper {

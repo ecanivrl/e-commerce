@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="css/main.css" />
   </head>
+
   <body>
     <!--! header start  -->
     <header>
@@ -19,7 +20,7 @@
         <div class="container">
           <p>
             SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL
-            DELIVERY - OFF 50%! SHOP NOW
+            DELIVERY - OFF 50%!
             <a href="shop.html">SHOP NOW</a>
           </p>
         </div>
@@ -28,18 +29,17 @@
         <div class="container">
           <div class="header-wrapper">
             <div class="header-mobile">
-              <i class="bi bi-list"></i>
+              <i class="bi bi-list" id="btn-menu"></i>
             </div>
             <div class="header-left">
               <a href="index.html" class="logo">LOGO</a>
             </div>
-            <div class="header-center">
+            <div class="header-center" id="sidebar">
               <nav class="navigation">
                 <ul class="menu-list">
                   <li class="menu-list-item">
-                    <a href="index.html" class="menu-link "
-                      >Home
-
+                    <a href="index.html" class="menu-link">
+                      Home
                       <i class="bi bi-chevron-down"></i>
                     </a>
                     <div class="menu-dropdown-wrapper">
@@ -75,9 +75,8 @@
                     </div>
                   </li>
                   <li class="menu-list-item megamenu-wrapper">
-                    <a href="shop.html" class="menu-link"
-                      >Shop
-
+                    <a href="shop.html" class="menu-link">
+                      Shop
                       <i class="bi bi-chevron-down"></i>
                     </a>
                     <div class="menu-dropdown-wrapper">
@@ -176,28 +175,30 @@
                     </div>
                   </li>
                   <li class="menu-list-item">
-                    <a href="blog.html" class="menu-link">Blog</a>
+                    <a href="blog.html" class="menu-link"> Blog </a>
                   </li>
                   <li class="menu-list-item">
-                    <a href="contact.html" class="menu-link active">Contact</a>
+                    <a href="contact.html" class="menu-link active">
+                      Contact
+                    </a>
                   </li>
                 </ul>
               </nav>
-              <i class="bi-x-circle"></i>
+              <i class="bi-x-circle" id="close-sidebar"></i>
             </div>
             <div class="header-right">
               <div class="header-right-links">
-                <a href="#" class="header-account">
+                <a href="account.html" class="header-account">
                   <i class="bi bi-person"></i>
                 </a>
-                <button class="toggle-button">
+                <button class="search-button">
                   <i class="bi bi-search"></i>
                 </button>
                 <a href="#">
                   <i class="bi bi-heart"></i>
                 </a>
                 <div class="header-cart">
-                  <a href="#" class="header-cart-link">
+                  <a href="cart.html" class="header-cart-link">
                     <i class="bi bi-bag"></i>
                     <span class="header-cart-count">0</span>
                   </a>
@@ -237,36 +238,68 @@
               <div class="search-info">
                 <h4>Analogue Resin Strap</h4>
                 <span class="search-sku">SKU: PD0016</span>
-                <span class="search-rice">$108.00</span>
+                <span class="search-price">$108.00</span>
               </div>
             </a>
             <a href="#" class="result-item">
               <img
-                src="img/products/product1/1.png"
+                src="img/products/product2/1.png"
                 class="search-thumb"
                 alt=""
               />
               <div class="search-info">
                 <h4>Analogue Resin Strap</h4>
                 <span class="search-sku">SKU: PD0016</span>
-                <span class="search-rice">$108.00</span>
+                <span class="search-price">$108.00</span>
               </div>
             </a>
           </div>
         </div>
-        <i class="bi bi-x-circle"></i>
+        <i class="bi bi-x-circle" id="close-search"></i>
       </div>
     </div>
     <!--! modal search end  -->
+
+    <!--! modal dialog start  -->
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button class="modal-close">
+          <i class="bi bi-x"></i>
+        </button>
+        <div class="modal-image">
+          <img src="img/modal-dialog.jpg" alt="" />
+        </div>
+        <div class="popup-wrapper">
+          <div class="popup-content">
+            <div class="popup-title">
+              <h3>NEWSLETTER</h3>
+            </div>
+            <p class="popup-text">
+              Sign up to our newsletter and get exclusive deals you won find any
+              where else straight to your inbox!
+            </p>
+            <form class="popup-form">
+              <input type="text" placeholder="Enter Email Address Here" />
+              <button class="btn btn-primary">SUBSCRIBE</button>
+              <label>
+                <input type="checkbox" />
+                <span>Don't show this popup again</span>
+              </label>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--! modal dialog end  -->
 
     <!--! contact start  -->
     <section class="contact">
       <div class="contact-top">
         <div class="contact-map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385396.60596766684!2d29.01217945!3d41.0053215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1673506606800!5m2!1str!2str"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.9633698339308!2d28.929441087738052!3d41.04793012296828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab1d021adf417%3A0xba3a3fdfdbb5f5d!2sEy%C3%BCp%20Sultan%20Camii!5e0!3m2!1str!2str!4v1665091191675!5m2!1str!2str"
             width="100%"
-            height="430"
+            height="500"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
@@ -277,66 +310,78 @@
       <div class="contact-bottom">
         <div class="container">
           <div class="contact-titles">
-              <h4>Contact with us</h4>
-              <h2>Get In Touch</h2>
-              <p>In hac habitasse platea dictumst. Pellentesque viverra sem nec orci lacinia, in bibendum urna
-                  mollis. Quisque nunc lacus, varius vel leo a, pretium lobortis metus. Vivamus consectetur
-                  consequat justo.</p>
+            <h4>Contact with us</h4>
+            <h2>Get In Touch</h2>
+            <p>
+              In hac habitasse platea dictumst. Pellentesque viverra sem nec
+              orci lacinia, in bibendum urna mollis. Quisque nunc lacus, varius
+              vel leo a, pretium lobortis metus. Vivamus consectetur consequat
+              justo.
+            </p>
           </div>
           <div class="contact-elements">
-              <form class="contact-form">
-                  <div class="">
-                      <label>
-                          Your Name
-                          <span>*</span>
-                      </label>
-                      <input type="text" required>
-                  </div>
-                  <div class="">
-                      <label>
-                          Your email
-                          <span>*</span>
-                      </label>
-                      <input type="text" required>
-                  </div>
-                  <div class="">
-                      <label>
-                          Subject
-                          <span>*</span>
-                      </label>
-                      <input type="text" required>
-                  </div>
-                  <div class="">
-                      <label>
-                          Your message
-                          <span>*</span>
-                      </label>
-                      <textarea id="author" name="author" type="text" value="" size="30" required=""></textarea>
-                  </div>
-                  <button class="btn btn-sm form-button">Send Message</button>
-              </form>
-              <div class="contact-info">
-                  <div class="contact-info-item">
-                      <div class="contact-info-texts">
-                          <strong> Clotya Store</strong>
-                          <p class="contact-street">
-                              Clotya Store
-                              Germany — 785 15h Street, Office 478/B Green Mall Berlin, De 81566</p>
-                          <a href="tel:Phone: +1 1234 567 88">Phone: +1 1234 567 88</a>
-                          <a href="mailto:Email: contact@example.com">Email: contact@example.com</a>
-                      </div>
-                  </div>
-                  <div class="contact-info-item">
-                      <div class="contact-info-texts">
-                          <strong> Opening Hours</strong>
-                          <p class="contact-date">
-                              Monday - Friday : 9am - 5pm</p>
-                          <p>Weekend Closed</p>
-                      </div>
-                  </div>
+            <form class="contact-form">
+              <div class="">
+                <label>
+                  Your Name
+                  <span>*</span>
+                </label>
+                <input type="text" required />
               </div>
+              <div class="">
+                <label>
+                  Your email
+                  <span>*</span>
+                </label>
+                <input type="text" required />
+              </div>
+              <div class="">
+                <label>
+                  Subject
+                  <span>*</span>
+                </label>
+                <input type="text" required />
+              </div>
+              <div class="">
+                <label>
+                  Your message
+                  <span>*</span>
+                </label>
+                <textarea
+                  id="author"
+                  name="author"
+                  type="text"
+                  value=""
+                  size="30"
+                  required=""
+                ></textarea>
+              </div>
+              <button class="btn btn-sm form-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <div class="contact-info-texts">
+                  <strong> Clotya Store</strong>
+                  <p class="contact-street">
+                    Clotya Store Germany — 785 15h Street, Office 478/B Green
+                    Mall Berlin, De 81566
+                  </p>
+                  <a href="tel:Phone: +1 1234 567 88">Phone: +1 1234 567 88</a>
+                  <a href="mailto:Email: contact@example.com"
+                    >Email: contact@example.com</a
+                  >
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-texts">
+                  <strong> Opening Hours</strong>
+                  <p class="contact-date">Monday - Friday : 9am - 5pm</p>
+                  <p>Weekend Closed</p>
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
+        </div>
       </div>
     </section>
     <!--! contact end  -->
@@ -442,7 +487,7 @@
           <div class="footer-widgets">
             <div class="brand-info">
               <div class="footer-logo">
-                <a href="#" class="logo">LOGO</a>
+                <a href="index.html" class="logo">LOGO</a>
               </div>
               <div class="footer-desc">
                 <p>
@@ -545,7 +590,7 @@
           <div class="footer-copyright">
             <div class="site-copyright">
               <p>
-                Copyright 2022 © E-Commerce Theme. All right reserved. Powered
+                Copyright 2023 © E-Commerce Theme. All right reserved. Powered
                 by Ecani VRL
               </p>
             </div>
@@ -570,5 +615,8 @@
       </div>
     </footer>
     <!--! footer end  -->
+
+    <!-- javascript  -->
+    <script src="js/main.js" type="module"></script>
   </body>
 </html>

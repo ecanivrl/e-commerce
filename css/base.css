@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap');
+/*! base start  */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -50,6 +51,11 @@ button {
   border: none;
 }
 
+button:disabled {
+  opacity: 0.4 !important;
+  cursor: no-drop;
+}
+
 .btn {
   display: inline-block;
   padding: 0 25px;
@@ -78,42 +84,55 @@ button {
   color: #1367ef;
 }
 
-.btn-danger {
-  background-color:#e51414;
-  color: #fff;
-  border-color:#e51414;
+textarea {
+  overflow: auto;
 }
 
-.btn-danger:hover {
-  background-color: #fff;
-  color:#e51414;
-}
-
-input[type='text'],
-input[type='password'],
-input[type='email'],
-input[type='number'] {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea {
   outline: none;
   border: 1px solid #dee0ea;
   padding: 8px 8px 8px 15px;
 }
 
-input[type='text']:focus,
-input[type='password']:focus,
-input[type='email']:focus,
-input[type='number']:focus {
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
   border-color: gray;
 }
 
-input[type='number']::-webkit-inner-spin-button {
+input[type="number"]::-webkit-inner-spin-button {
   opacity: 1;
 }
-.img-fluid{
+
+.img-fluid {
   width: 100%;
 }
+
+::-webkit-scrollbar{
+  width: 8px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, #1367ef);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(transparent, #065497);
+
+}
+
 /*! base end  */
 
-/* !responsive  start */
+/* base responsive  */
+
 @media (max-width: 1200px) {
   .container {
     max-width: 992px;
@@ -143,4 +162,3 @@ input[type='number']::-webkit-inner-spin-button {
     max-width: 350px;
   }
 }
-/* !responsive  end */

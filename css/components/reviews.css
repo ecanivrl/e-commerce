@@ -1,47 +1,47 @@
 /*! comment item start  */
 
 .tab-panel-reviews .comment-star {
-    display: flex;
-  }
-  
-  .tab-panel-reviews .comment-list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-  }
-  
-  .tab-panel-reviews .comment-item {
-    display: flex;
-    align-items: center;
-    column-gap: 15px;
-  }
-  
-  .tab-panel-reviews .comment-avatar img {
-    border-radius: 50%;
-    display: flex;
-  }
-  
-  .tab-panel-reviews .comment-text {
-    display: flex;
-    flex-direction: column;
-    row-gap: 6px;
-  }
-  
-  .tab-panel-reviews .comment-star i {
-    color: gold;
-    font-size: 12px;
-  }
-  
-  .tab-panel-reviews .comment-meta {
-    font-size: 12px;
-  }
-  
-  .tab-panel-reviews .comment-description p {
-    font-size: 14px;
-  }
-  /*! comment item end  */
-  
-  /*! comment form start  */
+  display: flex;
+}
+
+.tab-panel-reviews .comment-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.tab-panel-reviews .comment-item {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.tab-panel-reviews .comment-avatar img {
+  border-radius: 50%;
+  display: flex;
+}
+
+.tab-panel-reviews .comment-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.tab-panel-reviews .comment-star i {
+  color: gold;
+  font-size: 12px;
+}
+
+.tab-panel-reviews .comment-meta {
+  font-size: 12px;
+}
+
+.tab-panel-reviews .comment-description p {
+  font-size: 14px;
+}
+/*! comment item end  */
+
+/*! comment form start  */
 
 .tab-panel-reviews span.required {
   color: #e51414;
@@ -78,6 +78,10 @@
   padding: 4px 10px;
   border-right: 1px solid #dee0ea;
   margin-top: 5px;
+}
+
+.tab-panel-reviews .comment-form-rating .star.active i {
+  color: gold;
 }
 
 .tab-panel-reviews .comment-form-rating .stars a:hover i {
